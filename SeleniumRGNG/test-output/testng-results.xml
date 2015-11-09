@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RiskProfilePage Profile Test Suite" duration-ms="26633" started-at="2015-11-04T18:52:53Z" finished-at="2015-11-04T18:53:19Z">
+    <groups>
+    </groups>
+    <test name="Config" duration-ms="6" started-at="2015-11-04T18:52:53Z" finished-at="2015-11-04T18:52:53Z">
+    </test> <!-- Config -->
+    <test name="Test Case of ProfileMatch 1" duration-ms="26611" started-at="2015-11-04T18:52:53Z" finished-at="2015-11-04T18:53:19Z">
+      <class name="worldpay.QS.SeleniumRGNG.PageTestConfig">
+        <test-method status="PASS" signature="init()[pri:0, instance:worldpay.QS.SeleniumRGNG.PageTestConfig@49114c5a]" name="init" is-config="true" duration-ms="31086" started-at="2015-11-04T13:52:22Z" finished-at="2015-11-04T13:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="close()[pri:0, instance:worldpay.QS.SeleniumRGNG.PageTestConfig@49114c5a]" name="close" is-config="true" duration-ms="2904" started-at="2015-11-04T13:53:19Z" finished-at="2015-11-04T13:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- worldpay.QS.SeleniumRGNG.PageTestConfig -->
+      <class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
+        <test-method status="PASS" signature="profileTest(int, java.lang.String)[pri:0, instance:worldpay.QS.SeleniumRGNG.RiskProfilePageTest@7b811ce0]" name="profileTest" duration-ms="5921" started-at="2015-11-04T13:52:53Z" finished-at="2015-11-04T13:52:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101315]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileTest -->
+        <test-method status="FAIL" signature="sectionTest(int, int, java.lang.String)[pri:0, instance:worldpay.QS.SeleniumRGNG.RiskProfilePageTest@7b811ce0]" name="sectionTest" duration-ms="7236" started-at="2015-11-04T13:52:59Z" finished-at="2015-11-04T13:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Profile specific]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Transaction specific> but was:<Profile specific>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Transaction specific> but was:<Profile specific>
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+	at worldpay.QS.SeleniumRGNG.RiskProfilePageTest.sectionTest(RiskProfilePageTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sectionTest -->
+        <test-method status="PASS" signature="profileExist(java.lang.String)[pri:0, instance:worldpay.QS.SeleniumRGNG.RiskProfilePageTest@7b811ce0]" name="profileExist" duration-ms="6223" started-at="2015-11-04T13:53:06Z" finished-at="2015-11-04T13:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101313]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileExist -->
+        <test-method status="PASS" signature="sectionExist(java.lang.String, java.lang.String)[pri:0, instance:worldpay.QS.SeleniumRGNG.RiskProfilePageTest@7b811ce0]" name="sectionExist" duration-ms="7216" started-at="2015-11-04T13:53:12Z" finished-at="2015-11-04T13:53:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101313]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Internet aware]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sectionExist -->
+      </class> <!-- worldpay.QS.SeleniumRGNG.RiskProfilePageTest -->
+    </test> <!-- Test Case of ProfileMatch 1 -->
+  </suite> <!-- RiskProfilePage Profile Test Suite -->
+</testng-results>

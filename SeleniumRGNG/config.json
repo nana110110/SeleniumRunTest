@@ -1,0 +1,124 @@
+{
+	"FESMerchantId":"101313",
+	"FESUserName":"rg313fes",
+	"FESPassWord":"rg313fesp",
+	"FESURL":"https://mtlqavweb09/RG_Merchant_Admin_Tool_Test_NG/",
+	"LogFilePath":"LogFiles",
+	"LogFileName":"Log.txt",
+	
+	"TimeZoneDDLCount":1,
+	"LangDDLCount":1,
+	
+	"ChartDespDDLCount":1,
+	"ProfileNameDDLCount":1,
+	"PeriodCoveredCount":1,
+	"ChartTypeCount":1,
+	
+	"RefSearchMC":"100",
+	"RefSearchSRC":"CA",
+	"RefSearchCC":"CA",
+	"RefSearchCRC":"CA",
+	"AuditLogSearchDate":"2015/10/21",
+	
+	"ProfileIndex":0,
+	"ProfileName":"",
+	
+	"BulkProcessSectionName":"Internet aware",
+	"BulkProcessScore":70,
+	
+	"SingleProcessSectionName":"Internet aware",
+	"SingleProcessParameterIndex": 0,
+	"SingleProcessParameterScore":60,
+	
+	"CustomerRuleScore": 40,
+	"CustomerRuleSearchValue":"qs",
+	
+	"CustomerRuleLORName": "Acct Num -- Acc",
+	"CustomerRuleLORConditionValue": "4001000000002940",
+	
+	"CustomerRuleNewTabNum":4,
+	
+	"CustomerRuleNewName": "QSVeraTest",
+	"CustomerRuleNewDesp": "QSVeraTest script",
+	
+	"CustomerRuleIsActive": true,
+	"CustomerRuleIsPropAll": false,
+	
+	"CustomerRuleIsScore": true,
+	"CustomerRuleIsOverrideTrxScore": true,
+	"CustomerRuleNewScore": 45,
+	"CustomerRuleNewDefaultScore": 50,
+	
+	"CustomerRuleIsEmail": true,
+	"CustomerRuleEmailAddress": "qstest@worldpay.ca",
+	"CustomerRuleEmailText": "This is a test",
+	
+	"CustomerRuleIsSMS": true,
+	"CustomerRuleSMSNum": "5141111111",
+	"CustomerRuleSMSMessage": "This is a test",
+	
+	"CustomerRuleRCCIsOn": true;
+	"CustomerRuleRCCName":"Age of Account",
+	"CustomerRuleRCCCondition":"is equal to",
+	"CustomerRuleRCCValue":"1",
+	
+	"CustomerRuleRCIsOn": true;
+	"CustomerRuleRCName":"Order Number",
+	"CustomerRuleRCCondition":"is not equal to",
+	"CustomerRuleRCValue":"12345678",
+	
+	"CustomerRuleRSIsOn": true;
+	"CustomerRuleRSName":"Country Code",
+	"CustomerRuleRSCondition":"is not equal to",
+	"CustomerRuleRSScore":80,
+	
+	"EditParameterSectionName":"Internet aware",
+	"EditParameterName":"Email Address Analysis",
+	"EditPopupAddDesp":"QSTest",
+	"EditPopupAddValue":"@wp.com",
+	"EditPopupAddScore":75,
+	"EditPopupSearchValue":"com",
+	"EditPopupPropIndex":2,
+	"EditFactorIndex":1,
+	"EditFactorScore":50,
+	
+	"SearchSectionName":"Internet aware",
+	"SearchValue":"Email Address Analysis",
+	
+	
+	"CustomerRuleEditName": "",
+	"CustomerRuleEditDesp": "",
+	
+	"CustomerRuleEditIsActive": false,
+	"CustomerRuleEditIsPropAll": false,
+	
+	"CustomerRuleEditIsScore": true,
+	"CustomerRuleEditIsOverrideTrxScore": true,
+	"CustomerRuleEditScore": 60,
+	"CustomerRuleEditDefaultScore": 75,
+	
+	"CustomerRuleEditIsEmail": false,
+	"CustomerRuleEditEmailAddress": "qsweinaw@worldpay.ca",
+	"CustomerRuleEditEmailText": "This is an edit test",
+	
+	"CustomerRuleEditIsSMS": false,
+	"CustomerRuleEditSMSNum": "5142222222",
+	"CustomerRuleEditSMSMessage": "This is an edit test",
+	
+	"CustomerRuleEditRCCIsOn": true;
+	"CustomerRuleEditRCCName":"Age of Account",
+	"CustomerRuleEditRCCCondition":"is not equal to",
+	"CustomerRuleEditRCCValue":"2",
+	
+	"CustomerRuleEditRCIsOn": true;
+	"CustomerRuleEditRCName":"Store ID",
+	"CustomerRuleEditRCCondition":"is not equal to",
+	"CustomerRuleEditRCValue":"123",
+	
+	"CustomerRuleEditRSIsOn": true;
+	"CustomerRuleEditRSName":"State/Region Code",
+	"CustomerRuleEditRSCondition":"is equal to",
+	"CustomerRuleEditRSScore":75
+	
+
+}

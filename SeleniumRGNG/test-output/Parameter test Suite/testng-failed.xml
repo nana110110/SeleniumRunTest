@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameter test Suite]">
+  <parameter name="expectProfileName" value="101314"/>
+  <parameter name="profileIndex" value="1"/>
+  <test name="Parameter Test one(failed)">
+    <parameter name="expectProfileName" value="101314"/>
+    <parameter name="profileIndex" value="1"/>
+    <classes>
+      <class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
+        <methods>
+          <include name="init"/>
+          <include name="close"/>
+          <include name="testcasedemo1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- worldpay.QS.SeleniumRGNG.RiskProfilePageTest -->
+    </classes>
+  </test> <!-- Parameter Test one(failed) -->
+</suite> <!-- Failed suite [Parameter test Suite] -->
