@@ -8,106 +8,35 @@
 			<class name="worldpay.QS.SeleniumRGNG.PageTestConfig" />
 		</classes>
 	</test>
- 	
-	<test name="Test Case Vera Run">
-		<classes>		
-			<class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
-				<methods>
-					<include name="profileTest">
-				</methods>
-			</class>
-		</classes>
-	</test>
 
-<!-- 
-	<parameter name="profileName" value="1010313" />
-	<test name="Test Case of ProfileMatch 
-		2">
-		<parameter name="expectProfileName" value="101313" />
+	<test name="Test Case Vera Run">
 		<classes>
+			<class name="worldpay.QS.SeleniumRGNG.HomePageTest">
+				<methods>
+					<include name="veraRun">
+				</methods>
+			</class>
+			<class name="worldpay.QS.SeleniumRGNG.SearchPageTest">
+				<methods>
+					<include name="veraRun">
+				</methods>
+			</class>
 			<class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
 				<methods>
-					<include name="profileTest" />
+					<include name="veraRun">
+				</methods>
+			</class>
+			<class name="worldpay.QS.SeleniumRGNG.SupportPageTest">
+				<methods>
+					<include name="veraRun">
+				</methods>
+			</class>
+			<class name="worldpay.QS.SeleniumRGNG.ContaceusPageTest">
+				<methods>
+					<include name="veraRun">
 				</methods>
 			</class>
 		</classes>
 	</test>
-	<test name="Test Case of SectionMatch 
-		1">
-		<parameter name="sectionIndex" value="1" />
-		<parameter name="expectSectionName" value="Profile specific" />
-		<classes>
-			<class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
-				<methods>
-					<include name="sectionTest" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	<test name="Test Case of SectionMatch 2">
-		<parameter name="sectionIndex" value="1" />
-		<parameter name="expectSectionName" value="Internet aware" />
-		<classes>
-			<class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
-				<methods>
-					<include name="sectionTest" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	<test name="Test Case of ProfileExist 1">
-		<parameter name="profileName" value="101313" />
-		<classes>
-			<class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
-				<methods>
-					<include name="profileExist" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	<test name="Test Case of ProfileExist 2">
-		<parameter name="profileName" value="101314" />
-		<classes>
-			<class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
-				<methods>
-					<include name="profileExist" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	<test name="Test Case of ProfileExist 3">
-		<parameter name="profileName" value="101313NONONO" />
-		<classes>
-			<class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
-				<methods>
-					<include name="profileExist" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	<test name="Test Case of SectionExist 1">
-		<parameter name="profileName" value="101313" />
-		<parameter name="sectionName" value="Custom Rules" />
-		<classes>
-			<class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
-				<methods>
-					<include name="sectionExist" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	<test name="Test 
-		Case of SectionExist 2">
-		<parameter name="profileName" value="101313NONONO" />
-		<parameter name="sectionName" value="Custom Rules" />
-		<classes>
-			<class name="worldpay.QS.SeleniumRGNG.RiskProfilePageTest">
-				<methods>
-					<include name="sectionExist" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	 -->	
 </suite>
 
