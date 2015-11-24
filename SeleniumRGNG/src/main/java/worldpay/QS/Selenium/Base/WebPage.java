@@ -10,6 +10,9 @@ import worldpay.QS.Selenium.util.LogWriter;
 
 public abstract class WebPage {
 	
+	public WebPage(){
+		this.invoke();
+		}
 	
 	public boolean exists(int waitTime, By elementId){
 		WebDriver dr = Browser.getInstance().driver;

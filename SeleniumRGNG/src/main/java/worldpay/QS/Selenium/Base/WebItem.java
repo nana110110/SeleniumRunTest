@@ -200,4 +200,15 @@ public class WebItem {
 			}
 		}
 	}
+	public String getText()
+	{
+		if(item!=null)
+		{
+			return item.getText();
+		}
+		else
+		{
+			return "";
+		}
+	}
 }

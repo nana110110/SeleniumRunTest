@@ -9,6 +9,9 @@ import org.openqa.selenium.WebElement;
 public class Utility {
 	
 	public static int MaxChartNumber = 5;
+	
+	public final static String username = "nana110119120@163.com";
+	public final static String password = "zheshixiaohao110";
 
 	public static boolean isElementPresent(WebElement element, By by)
 	{
