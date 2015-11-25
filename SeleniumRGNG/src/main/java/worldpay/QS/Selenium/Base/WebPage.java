@@ -121,7 +121,7 @@ public abstract class WebPage {
 		}
 	}
 	
-	public abstract boolean invoke();
+	public abstract void invoke();
 	public abstract void initElements();
 	public abstract void run();
 

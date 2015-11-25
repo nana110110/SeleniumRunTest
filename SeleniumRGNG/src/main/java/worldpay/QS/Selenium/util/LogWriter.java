@@ -7,12 +7,8 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.testng.ITestResult;
-import org.testng.TestListenerAdapter;
 
-
-
-public class LogWriter extends TestListenerAdapter{
+public class LogWriter{
 	private static BufferedWriter bw = null;
 	
 	public static boolean openLogToWrite(String LogFileName, String LogFilePath)
@@ -71,23 +67,7 @@ public class LogWriter extends TestListenerAdapter{
 			e.printStackTrace();
 		}
 	}
-	
-	@Override
-    public void onTestFailure(ITestResult tr) {
-		writeToFile("--------------------------------------");
-		writeToFile(tr.getName()+ "--Test method failed\n");
-		writeToFile("--------------------------------------");
-    }
-	 
-    @Override
-    public void onTestSkipped(ITestResult tr) {
-    	writeToFile(tr.getName()+ "--Test method skipped\n");
-    }
-	 
-    @Override
-    public void onTestSuccess(ITestResult tr) {
-    	writeToFile(tr.getName()+ "--Test method success\n");
-    }
+
 	
 	
 

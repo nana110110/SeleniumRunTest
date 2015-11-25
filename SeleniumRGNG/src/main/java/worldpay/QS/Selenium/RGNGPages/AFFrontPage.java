@@ -30,7 +30,7 @@ public class AFFrontPage extends WebPage {
 
 	}
 
-	public boolean invoke() {
+	public void invoke() {
 
 		WebDriver driver = Browser.getInstance().driver;
 		driver.get(invokeURL);
@@ -40,7 +40,7 @@ public class AFFrontPage extends WebPage {
 		if (!btn_close.isEmpty())
 			btn_close.movetoclick();
 
-		if (exists(10, webPageId)) {
+		/*if (exists(10, webPageId)) {
 			LogWriter.writeToFile("Get to login page");
 			initElements();
 			return true;
@@ -48,10 +48,10 @@ public class AFFrontPage extends WebPage {
 			LogWriter.writeToFile("Get to login page failed.");
 			return false;
 		}
-
+*/
 	}
 
-	public boolean invoke(String url) {
+	public void invoke(String url) {
 
 		WebDriver driver = Browser.getInstance().driver;
 		driver.get(url);
@@ -61,14 +61,14 @@ public class AFFrontPage extends WebPage {
 		if (!btn_close.isEmpty())
 			btn_close.movetoclick();
 
-		if (exists(5, webPageId)) {
+/*		if (exists(5, webPageId)) {
 			LogWriter.writeToFile("Get to login page");
 			initElements();
 			return true;
 		} else {
 			LogWriter.writeToFile("Get to login page failed.");
 			return false;
-		}
+		}*/
 	}
 
 	public void signIn() throws InterruptedException {
